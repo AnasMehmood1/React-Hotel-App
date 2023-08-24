@@ -1,0 +1,42 @@
+.reserve{
+    height: 40vh;
+    position: relative;
+}
+.mask-1{
+    width: 100%;
+    height: 40vh;
+}
+.mask-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.reserve-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+    position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50% , -50%);
+}
+.heading-res{
+    white-space: nowrap;
+    color: white;
+}
+.res-btn{
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    white-space: nowrap;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+@media (max-width:850px){
+    .reserve-text{
+    gap: 1rem;
+    flex-direction: column;
+    
+    }
+}

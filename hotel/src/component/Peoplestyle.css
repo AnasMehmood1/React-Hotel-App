@@ -1,0 +1,77 @@
+.people-container{
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+}
+.People-text{
+    text-align: center;
+    margin-top:10rem ;
+    margin-bottom:1rem ;
+}
+.People-text h1{
+    font-size: 3.5rem;
+}
+.people-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+ height: 65vh;
+   
+}
+.img{
+    width: 30%;
+   
+}
+.img img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.des{
+    font-size: 1rem;
+    margin: 2rem 0;
+    width: 80%;
+    color: gray;
+}
+.name{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: gray;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width:750px) {
+    .swiper-slide .people-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .people-card{
+        flex-direction: column;
+    }
+  }

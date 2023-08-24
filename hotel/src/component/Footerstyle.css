@@ -1,0 +1,64 @@
+.footer-section{
+    background: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    height: auto;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 5rem;
+    
+}
+div ul li{
+    margin-bottom: 15px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+.h4{
+  padding: 5px 0;
+  font-size: 1.5rem;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 4rem;
+}
+.fa-location-dot,
+.fa-phone,
+.fa-envelope{
+    color: orange;
+}
+div h5{
+    margin-bottom: 15px;
+}
+.input{
+  background-color: transparent;
+  color: white;
+  border-bottom: 2px solid gray;
+}
+.input input{
+    background-color: transparent;
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+   
+    outline: none;
+}
+.icon ul {
+    display: flex;
+    gap: 30px;
+}
+@media (max-width:850px){
+    .top{
+        flex-wrap: wrap;
+    }
+    div{
+        padding: 2rem 0;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+}

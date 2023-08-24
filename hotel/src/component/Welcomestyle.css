@@ -1,0 +1,246 @@
+.section {
+    background-color: aliceblue;
+    height: 90vh;
+    width: 100%;
+  
+    position: relative;
+   
+}
+.center-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.box{
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    gap: 55px;
+    height: 20vh;
+    border-radius: 10px;
+    margin-top: -5rem;
+}
+.label{
+    flex-direction: column;
+    text-align: start;
+}
+.label p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.label input{
+    width: 120%;
+    height: 7vh;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    margin-top: 12px;
+    outline: none;
+}
+.adult{
+    margin-top: 15px;
+}
+.child{
+    margin-top: 0px;
+}
+.adult-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid lightgray;
+    gap: 3rem;
+    margin-top: 5px;
+    padding:.8rem 1rem;
+    border-radius: 7px;
+}
+.child-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid lightgray;
+    gap: 3rem;
+    margin-top: 30px;
+    padding:.8rem 1rem;
+    margin-left: -2rem;
+    border-radius: 7px;
+}
+.checkbtn{
+    background-color: rgb(224, 143, 28);
+    color: white;
+    padding: 12px 30px;
+    margin-top: 35px;
+    border-radius: 30px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem 0 3rem;
+}
+
+.first {
+    width: 100%;
+    text-align: start;
+}
+
+.first-det p {
+    width: 90%;
+    line-height: 30px;
+
+}
+
+.first-det h1 {
+    font-size: 4rem;
+}
+.or{
+    font-size: 1rem;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 12px;
+}
+
+.btn {
+    padding: 10px 30px;
+    white-space: nowrap;
+    background-color: rgb(255, 186, 90);
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(224, 143, 28);
+}
+
+.button p {
+    color: rgb(241, 157, 39);
+    font-size: 1.3rem;
+    font-weight: 500;
+   
+}
+
+.second {
+    width: 100%;
+}
+
+.image img {
+    border-radius: 7px;
+}
+
+.corner img {
+
+    width: 19%;
+    height: 179px;
+    border-radius: 50%;
+    border: 8px solid aliceblue;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+
+}
+
+@media(max-width :850px) {
+
+    .section{
+        height: 158vh;
+    }
+
+    .center-box{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+.box{
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+    margin: -4rem 0 0 0;
+    border-radius: 0;
+    height: auto;
+    justify-content: flex-start;
+    margin-bottom: 7rem;
+}
+.label{
+    width: 100%;
+ margin-right: 4rem;
+}
+.label input{
+    width: 100%;
+}
+.adult{
+    width: 100%;
+    margin-right: 4rem;
+}
+.adult-box{
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.child{
+    width: 100%;
+    margin-right: 2rem;
+}
+.child-box{
+    width: 100%;
+    justify-content: space-between;
+    
+}
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        height: 60vh;
+    }
+
+    .second {
+        width: 100%;
+       margin-bottom: 3rem;
+    }
+
+    .corner img {
+        top: 85%;
+        right: 0%;
+        width: 23%;
+        height: 178px;
+    }
+    .image{
+        width: 100%;
+        object-fit: contain;
+    }
+    .first-det h1{
+        font-size: 2.8rem;
+    }
+}
+
+
+@media(max-width:730px){
+    .corner img {
+        top: 50%;
+        right: 0%;
+        width: 32%;
+        height: 174px;
+        
+    }
+}
+@media(max-width:450px){
+
+    .corner img {
+        top: 55%;
+        right: 0%;
+        width: 34%;
+        height: 131px;
+        
+    }
+    .first-det p {
+        width: 100%;
+        line-height: 30px;
+    }
+}

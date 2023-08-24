@@ -1,0 +1,122 @@
+.contact_section{
+    margin: 5rem 0;
+}
+.Contact_section_container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 4rem;
+}
+.left_container{
+    padding: 3rem 1rem 3rem 2rem;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+.right_container{
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+.first_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left_col_1 input{
+padding: .7rem .2rem;
+outline: none;
+border: 2px solid lightgray;
+border-radius: 5px;
+margin-bottom: 7px;
+width: 100%;
+}
+.left_col_2 input{
+    width: 100%;
+padding: .7rem .2rem;
+outline: none;
+border: 2px solid lightgray;
+border-radius: 5px;
+margin-bottom: 7px;
+}
+.sec_left input{
+    width: 90%;
+    outline: none;
+    padding: .8rem 0;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    margin-bottom: 12px;
+}
+.third_left{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.check_in input{
+    width: 100%;
+    outline: none;
+    padding: .7rem .2rem;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    margin-bottom: 12px;
+}
+.check_out input{
+    width: 100%;
+    outline: none;
+    padding: .7rem .2rem;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    margin-bottom: 12px;
+}
+.note{
+    display: flex;
+    flex-direction: column;
+}
+.note label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#message{
+    border: 2px solid lightgray;
+    outline: none;
+}
+.contactbutton{
+    background-color: rgb(224, 143, 28);;
+    color: white;
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.address{
+    padding: 1rem 0;
+}
+h6{
+    color: gray;
+    font-weight: 300;
+}
+.add{
+    margin-top: 10px;
+    font-size: 2rem;
+    line-height: 45px;
+    font-weight: 200;
+}
+.num{
+    font-size: 2rem;
+    margin-top: 12px;
+}
+.eml{
+    font-size: 2rem;
+    margin-top: 12px;
+}
+@media(max-width:850px){
+    .Contact_section_container{
+        flex-direction: column;
+    }
+    .left_container{
+        padding: 0 12px 12px 12px;
+        width: 100%;
+    }
+}
